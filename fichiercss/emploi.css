@@ -1,0 +1,133 @@
+footer{
+    background: #446CB3;
+    padding-top: 50px;
+    color: white;
+    margin-top: 30px;
+    height: 350px;
+    margin-top: 60px;
+}
+.container1{
+    width: 1190px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+   
+   
+}
+.footer-content{
+    width: 39%;
+    color: white;
+  
+   
+}
+.titre{
+    font-size: 28px;
+    margin-bottom: 15px;
+    text-align: center;
+    color: white;
+}
+
+.titre:hover{
+    color:yellow;
+}
+.footer-content p{
+    width:190px;
+    margin: auto;
+    padding: 7px;
+    color: white;
+    font-family: sans-serif;
+    
+}
+.footer-content ul{
+    text-align: center;
+   
+}
+.list{
+    padding: 0;
+    
+}
+.list li{
+    width: auto;
+    text-align: center;
+    list-style-type:none;
+    padding: 7px;
+    position: relative;
+    color: white;
+}
+.list a {
+    color: white;
+    font-family: sans-serif;
+}
+.list li::before{
+    content: '';
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 100%;
+    width: 0;
+    height: 2px;
+    background: yellow;
+    transition-duration: .5s;
+    color: white;
+}
+.list li:hover::before{
+    width: 70px;
+}
+.social-icons{
+    text-align: center;
+    padding: 0;
+}
+.social-icons li{
+    display: inline-block;
+    text-align: center;
+    padding: 5px;
+    color: white;
+}
+.social-icons i{
+    color: white;
+    font-size: 25px;
+}
+
+.list a:hover{
+color:yellow;
+}
+.social-icons i:hover{
+    color: yellow;
+}
+.bottom{
+    background: #007bff;
+    text-align: center;
+    padding: 13px;
+    margin-top: 10px;
+    font-family: sans-serif;
+ 
+}
+.bottomp{
+    color: white;
+    margin: 0;
+    font-size: 16px;
+    padding: 7px;
+    font-weight: 600;
+    
+ 
+}
+.newLetter input{
+
+    width:200px;
+    padding: 12px;
+    border:white 1px solid ;
+    font-size: 17px;
+    border-radius: 12px;
+    margin-bottom: 20px;
+    margin-left: 50px;
+   
+}
+.input1{
+  color:black;
+  text-align: center;
+
+}
+::placeholder{
+    color: black;
+}
+

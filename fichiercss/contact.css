@@ -1,0 +1,275 @@
+#div0 div p {
+    font-weight: bold;
+    font-size: 17px;
+   }
+   
+   .header{
+          height: 100px;
+          width: 100%;  
+    }
+      nav{
+          display: flex;
+          padding: 2% 8%;
+          justify-content: space-between;
+          align-items: center;
+      }
+      
+      .nav-links{
+         
+          text-align: right;
+      }
+      .nav-links ul li{
+          list-style: none;
+          display: inline-block;
+          padding: 8px 30px;
+      }
+      .nav-links ul li a{
+          color: #ffc107;
+          text-decoration: none;
+          font-size: 20px;
+          font-weight: bold;
+      }
+      .nav-links ul li::after{
+          content: '';
+          width: 0%;
+          height: 2px;
+          background: #f44336;
+          display: block;
+          margin: auto;
+          transition: 0.5s;
+      }
+      .nav-links ul li:hover::after{
+          width: 100%;
+      }
+      
+   #div0{
+           display: flex;
+           justify-content: space-around;
+           align-items: center;
+           width: 100%;
+           text-align: center;
+           height: 150px;
+           color: #164596;
+       }
+      
+    
+    .info {
+      
+        background-image: url('/iamges_projet/fstt.png');
+        font-family: sans-serif;
+        font-weight: bold;
+        max-width: 100%;
+        height: 150px;
+        font-size: 20px;   
+        background-repeat: no-repeat;
+        background-position: 60% 60%;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+}
+
+  
+    .conatctfstt{
+        margin-top: 60px;
+        margin-left: 200px;
+        border: 2px solid #F3C827;
+        padding: 18px;
+        width: 800px;
+        background-color: #F3C827;
+        border-radius: 30px;
+        box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.9);
+        
+    }
+    .adresse p i{
+        margin-right: 12px;
+        
+    }
+    .adresse p{
+       font-family: sans-serif;
+      
+        font-size: 15px;
+        font-weight: 600;
+        margin-left: 70px;  
+
+    }
+    .conatct h1{
+        text-align: center;
+        color: #446CB3;
+        font-family: sans-serif;
+    }
+
+    #titre2{
+        font-family: sans-serif;
+        font-weight: bold;
+        color:  rgb(10, 58, 130);
+        border: 3px solid rgb(16, 104, 186);
+        background-color:#FFFFFF;
+        width:0%;
+        font-size: 38px;
+        margin-left: 50px;
+        
+      }
+
+      #titre1{
+        font-family: sans-serif;
+        font-weight: bold;
+        max-width: 100%;
+        height: 190px;
+        font-size: 30px;
+        width: 100%;
+        color: white;
+        text-align: center;
+        background-position: 70% 60%;
+        background-image: url("../iamges_projet/fstt.png");
+        background-repeat: no-repeat;
+       
+      }
+
+      .localisation p {
+        margin-left: 90px;
+        
+       
+      }
+      footer{
+        background: #446CB3;
+        padding-top: 50px;
+        color: white;
+        margin-top: 30px;
+        height: 350px;
+        margin-top: 60px;
+    }
+    .container1{
+        width: 1190px;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+       
+       
+    }
+    .footer-content{
+        width: 39%;
+        color: white;
+      
+       
+    }
+    .titre{
+        font-size: 28px;
+        margin-bottom: 15px;
+        text-align: center;
+        color: white;
+    }
+
+    .titre:hover{
+        color:yellow;
+    }
+    .footer-content p{
+        width:190px;
+        margin: auto;
+        padding: 7px;
+        color: white;
+        font-family: sans-serif;
+        
+    }
+    .footer-content ul{
+        text-align: center;
+       
+    }
+    .list{
+        padding: 0;
+        
+    }
+    .list li{
+        width: auto;
+        text-align: center;
+        list-style-type:none;
+        padding: 7px;
+        position: relative;
+        color: white;
+    }
+    .list a {
+        color: white;
+        font-family: sans-serif;
+    }
+    .list li::before{
+        content: '';
+        position: absolute;
+        transform: translate(-50%,-50%);
+        left: 50%;
+        top: 100%;
+        width: 0;
+        height: 2px;
+        background: yellow;
+        transition-duration: .5s;
+        color: white;
+    }
+    .list li:hover::before{
+        width: 70px;
+    }
+    .social-icons{
+        text-align: center;
+        padding: 0;
+    }
+    .social-icons li{
+        display: inline-block;
+        text-align: center;
+        padding: 5px;
+        color: white;
+    }
+    .social-icons i{
+        color: white;
+        font-size: 25px;
+    }
+  
+   .list a:hover{
+    color:yellow;
+   }
+    .social-icons i:hover{
+        color: yellow;
+    }
+    .bottom{
+        background: #007bff;
+        text-align: center;
+        padding: 13px;
+        margin-top: 10px;
+        font-family: sans-serif;
+     
+    }
+    .bottomp{
+        color: white;
+        margin: 0;
+        font-size: 16px;
+        padding: 7px;
+        font-weight: 600;
+        
+     
+    }
+    .newLetter input{
+
+        width:200px;
+        padding: 12px;
+        border:white 1px solid ;
+        font-size: 17px;
+        border-radius: 12px;
+        margin-bottom: 20px;
+        margin-left: 50px;
+       
+    }
+    .input1{
+      color:black;
+      text-align: center;
+
+    }
+    ::placeholder{
+        color: black;
+    }
+
+
+ .image1{
+    width:180px;
+    height: 140px;
+ }
+ *{
+    font-family: sans-serif;
+    text-decoration: none;
+ }
+ 
